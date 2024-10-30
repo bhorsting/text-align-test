@@ -14,11 +14,19 @@ onMounted(() => {
 
 <template>
   <div class="root">
-  <div class="test-div">
+    <div class="test-div">
     <span>
       <span class="inner-text" ref="txt">TEST</span>
     </span>
-  </div>
+    </div>
+
+
+    <div class="test-div2">
+    <span>
+      <span class="inner-text" ref="txt">TEST</span>
+    </span>
+    </div>
+
   </div>
 </template>
 
@@ -46,6 +54,15 @@ onMounted(() => {
   font-size: 55px;
   pointer-events: auto;
   align-items: center;
+  font-family: Herokid;
+}
+
+.test-div2 {
+  position: absolute;
+  transform: translateX(208px) translateY(291px) rotate(0deg) scale(1) skewX(0deg) skewY(0deg);
+  width: 514px;
+  height: 62px;
+  font-size: 55px;
   font-family: Herokid;
 }
 
