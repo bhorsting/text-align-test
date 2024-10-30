@@ -34,6 +34,7 @@ onMounted(() => {
   height: 62px;
   display: flex;
   opacity: 1;
+  padding: 0;
   visibility: visible;
   white-space: pre-wrap;
   //-webkit-text-stroke: 0px rgba(0, 0, 0, 0);
@@ -52,6 +53,7 @@ onMounted(() => {
   align-items: center;
   font-family: Herokid;
   mix-blend-mode: difference;
+  margin:0;
 }
 
 

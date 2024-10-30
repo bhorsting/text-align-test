@@ -7,7 +7,8 @@ export function getFontVerticalMetrics(font: string, text: string = "Hg"): { asc
     }
 
     // Set the font on the context
-    context.font = font;
+    context.font = `55px ${font}`;
+    console.log(context.font);
 
     // Measure the text
     const metrics = context.measureText(text);
