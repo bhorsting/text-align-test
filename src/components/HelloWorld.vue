@@ -17,16 +17,23 @@ onMounted(() => {
 <template>
   <div class="root">
     <div class="test-div">
-    <span>
-      <span class="inner-text" ref="txt">TEST</span>
-    </span>
+      <span>
+        <span class="inner-text" ref="txt">TEST</span>
+      </span>
     </div>
 
     <div class="test-div test-div2">
-    <span>
-      <span class="inner-text" ref="txt">TEST</span>
-    </span>
+      <span>
+        <span class="inner-text" ref="txt">TEST</span>
+      </span>
     </div>
+
+    <div class="test-div3">
+      <span>
+        <span class="inner-text" ref="txt">TEST</span>
+      </span>
+    </div>
+
   </div>
 </template>
 
@@ -63,6 +70,14 @@ onMounted(() => {
 .test-div2 {
   transform: translateX(408px) translateY(291px) rotate(0deg) scale(1) skewX(0deg) skewY(0deg) !important;
   font-family: Herokid2 !important;
+}
+
+.test-div3 {
+  position: absolute;
+  top: 300;
+  left: 300;
+  font-family: Herokid;
+  font-size: 55px;
 }
 
 
