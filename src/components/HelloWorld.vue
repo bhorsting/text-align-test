@@ -55,8 +55,6 @@ onMounted(() => {
   pointer-events: auto;
   align-items: center;
   font-family: Herokid;
-  text-box-edge: ideographic-ink;
-  text-box-trim: both;
 }
 
 .test-div2 {
@@ -66,8 +64,6 @@ onMounted(() => {
   height: 62px;
   font-size: 55px;
   font-family: Herokid;
-  text-box-edge: ideographic-ink;
-  text-box-trim: both;
 }
 
 
