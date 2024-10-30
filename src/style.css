@@ -21,10 +21,11 @@
 }
 
 @font-face {
+  ascent-override: 100%;
   font-family: 'Herokid2';
   font-style:  bold;
   font-display: swap;
-  src: url('assets/basokid-boldwide-webfont.woff') format('truetype');
+  src: url('assets/Herokid-BoldWide.ttf') format('truetype');
 }
 
 a {
