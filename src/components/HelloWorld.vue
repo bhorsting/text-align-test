@@ -47,7 +47,7 @@ onMounted(() => {
   color: white;
   text-decoration: none rgb(3, 93, 167);
   line-height: 0;
-  font-size: 200px;
+  font-size: 55px;
   pointer-events: auto;
   align-items: center;
   font-family: Herokid;
