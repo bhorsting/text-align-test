@@ -22,7 +22,11 @@ onMounted(() => {
     </span>
     </div>
 
-
+    <div class="test-div test-div2">
+    <span>
+      <span class="inner-text" ref="txt">TEST</span>
+    </span>
+    </div>
   </div>
 </template>
 
@@ -54,6 +58,11 @@ onMounted(() => {
   font-family: Herokid;
   mix-blend-mode: difference;
   margin:0;
+}
+
+.test-div2 {
+  transform: translateX(408px) translateY(291px) rotate(0deg) scale(1) skewX(0deg) skewY(0deg) !important;
+  font-family: Herokid2 !important;
 }
 
 

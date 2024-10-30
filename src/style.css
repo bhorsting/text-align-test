@@ -20,6 +20,13 @@
     src: url('assets/Herokid-BoldWide.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Herokid2';
+  font-style:  bold;
+  font-display: swap;
+  src: url('assets/basokid-boldwide-webfont.woff') format('truetype');
+}
+
 a {
   font-weight: 500;
   color: #646cff;
