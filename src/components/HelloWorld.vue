@@ -23,12 +23,6 @@ onMounted(() => {
     </div>
 
 
-    <div class="test-div2">
-    <span>
-      <span class="inner-text" ref="txt">TEST</span>
-    </span>
-    </div>
-
   </div>
 </template>
 
@@ -50,22 +44,14 @@ onMounted(() => {
   overflow-wrap: break-word;
   justify-content: center;
   text-align: center;
-  color: rgb(3, 93, 167);
+  color: white;
   text-decoration: none rgb(3, 93, 167);
   line-height: 0;
   font-size: 55px;
   pointer-events: auto;
   align-items: center;
   font-family: Herokid;
-}
-
-.test-div2 {
-  position: absolute;
-  transform: translateX(208px) translateY(291px) rotate(0deg) scale(1) skewX(0deg) skewY(0deg);
-  width: 514px;
-  height: 62px;
-  font-size: 55px;
-  font-family: Herokid;
+  mix-blend-mode: difference;
 }
 
 
