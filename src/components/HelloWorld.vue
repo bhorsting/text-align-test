@@ -1,6 +1,14 @@
 <script setup lang="ts">
 
+import {onMounted, ref} from "vue";
+
 defineProps<{ msg: string }>()
+const txt = ref<HTMLSpanElement | null>(null);
+
+onMounted(() => {
+  console.log(txt.value!.getBoundingClientRect());
+})
+
 
 </script>
 
@@ -8,7 +16,7 @@ defineProps<{ msg: string }>()
   <div class="root">
   <div class="test-div">
     <span>
-      <span class="inner-text">TEST</span>
+      <span class="inner-text" ref="txt">TEST</span>
     </span>
   </div>
   </div>
