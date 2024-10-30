@@ -1,12 +1,14 @@
 <script setup lang="ts">
 
 import {onMounted, ref} from "vue";
+import {getFontVerticalMetrics} from "../fix/getTextBoundingBox.ts";
 
 defineProps<{ msg: string }>()
 const txt = ref<HTMLSpanElement | null>(null);
 
 onMounted(() => {
   console.log(txt.value!.getBoundingClientRect());
+  console.log(getFontVerticalMetrics('Herokid'));
 })
 
 
