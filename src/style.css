@@ -21,7 +21,8 @@
 }
 
 @font-face {
-  ascent-override: 100%;
+  ascent-override: 80%;
+  descent-override: 20%;
   font-family: 'Herokid2';
   font-style:  bold;
   font-display: swap;
